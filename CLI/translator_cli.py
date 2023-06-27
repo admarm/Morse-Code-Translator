@@ -39,6 +39,6 @@ for char in inputed_message:
             message += "/ "
 
 if is_normal:
-    print("\nYour message in Morse Code:", message)
+    input("\nYour message in Morse Code:" + message)
 elif is_morse:
-    print("\nYour message converted from Morse Code:", message)
+    input("\nYour message converted from Morse Code:" + message)
