@@ -1,4 +1,4 @@
-morse_code = { # English to Morse
+morse_code = { # English to Morse '/', ' '}
     "A": ".-", "B": "-...", "C": "-.-.", "D": "-..", "E": ".", "F": "..-.", "G": "--.", "H": "....", "I": "..", "J": ".---", "K": "-.-", "L": ".-..", "M": "--",
     "N": "-.", "O": "---", "P": ".--.", "Q": "--.-", "R": ".-.", "S": "...", "T": "-", "U": "..-", "V": "...-", "W": ".--", "X": "-..-", "Y": "-.--", "Z": "--..",
     "0" : "-----", "À" : ".--.-", "Å" : ".--.-", "Ä" : ".-.-", "Ą" : ".-.-", "Æ" : ".-.-", "Ć" : "-.-..", "Ĉ" : "-.-..", "Ç" : "-.-..", "Ch" : "----", "Ĥ" : "----",
@@ -39,6 +39,6 @@ for char in inputed_message:
             message += "/ "
 
 if is_normal:
-    input("\nYour message in Morse Code:" + message)
+    input("\nYour message in Morse Code: " + message)
 elif is_morse:
-    input("\nYour message converted from Morse Code:" + message)
+    input("\nYour message converted from Morse Code: " + message)
